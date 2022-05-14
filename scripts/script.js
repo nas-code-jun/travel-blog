@@ -27,23 +27,23 @@ ulElement.appendChild(liElement3);
 ulElement.appendChild(liElement4);
 
 liElement1.appendChild(aElement1);
-aElement1.setAttribute("href", "index.php");
+aElement1.setAttribute("href", "index.html");
 aElement1.setAttribute("class", "active");
 
 aElement1.textContent = "Главная";
 
 liElement2.appendChild(aElement2);
-aElement2.setAttribute("href", "Albums.php");
+aElement2.setAttribute("href", "Albums.html");
 
 aElement2.textContent = "Альбомы";
 
 liElement3.appendChild(aElement3);
-aElement3.setAttribute("href", "Tracks.php");
+aElement3.setAttribute("href", "Tracks.html");
 
 aElement3.textContent = "Маршруты";
 
 liElement4.appendChild(aElement4);
-aElement4.setAttribute("href", "Contacts.php");
+aElement4.setAttribute("href", "Contacts.html");
 
 aElement4.textContent = "Кто мы";
 
