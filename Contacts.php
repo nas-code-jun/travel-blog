@@ -6,26 +6,15 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Путешествуй.</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" media="screen and (max-width: 426px)" href="css/425-Phone.css"/>
-  <link rel="stylesheet" media="screen and (min-width: 426px) and (max-width: 769px)" href="css/768-Tablet.css" />
-  <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1440px)" href="css/1024-Laptop.css" />
+  <link rel="stylesheet" media="screen and (max-width: 426px)" href="css/Phone.css"/>
+  <link rel="stylesheet" media="screen and (min-width: 426px) and (max-width: 769px)" href="css/Tablet.css" />
+  <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1440px)" href="css/Laptop.css" />
+  <link rel="stylesheet" media="screen and (min-width: 1440px)" href="css/other.css" />
 </head>
 <body>
-  <header>
-    <span class="logo">КОНТАКТЫ<b>.</b></span>
-    <div class="nav">
-      <ul>
-        <li><a href="index.html" class="active">Главная</a></li>
-        <li><a href="Albums.html">Альбомы</a></li>
-        <li><a href="Tracks.html">Маршруты</a></li>
-        <li><a href="Chat.html">Чат</a></li>
-        <li><a href="Contacts.html">Контакты</a></li>
-        <!-- <li><i class="fas fa-search"></i></li> -->
-      </ul>
-    </div>
-  </header>
+  <script src="scripts\script.js" nameOfPage = "МЫ"></script>
   <div class="main">
-  				
+
   </div>
   <footer>
     <div class="flex-blocks">

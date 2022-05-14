@@ -4,37 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Путешествуй.</title>
-  <!-- <link rel="stylesheet" href="css/main.css"> -->
-  <link rel="stylesheet" media="screen and (max-width: 426px)" href="css/425-Phone.css"/>
-  <link rel="stylesheet" media="screen and (min-width: 426px) and (max-width: 769px)" href="css/768-Tablet.css" />
-  <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1440px)" href="css/1024-Laptop.css" />
-  <link rel="stylesheet" media="screen and (min-width: 1440px)" href="css/main.css" />
+  <title>Путешествуй<b>.</b></title>
+  <!-- <script src="scripts\script.js" nameOfPage = "ПУТЕШЕВСТВУЙ"></script> -->
+  <link rel="stylesheet" media="screen and (max-width: 426px)" href="css/Phone.css"/>
+  <link rel="stylesheet" media="screen and (min-width: 426px) and (max-width: 769px)" href="css/Tablet.css" />
+  <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1440px)" href="css/Laptop.css" />
+  <link rel="stylesheet" media="screen and (min-width: 1440px)" href="css/other.css" />
 </head>
 <body>
-  <header>
-  	<!--	<div class="auth-bar">
-  			<div class="logo-holder">
-  			    <img src="img/wind-rose.svg" alt="">
-  			</div>
-  		    <div class="buttons-box">
-  				<button id="reg-btn">Регистрация</button>
-  				<div class="space-box"></div>
-  				<button id="login-btn">Войти</button>	
-  			</div>
-  		</div> -->
-    <span class="logo">ПУТЕШЕСТВУЙ<b>.</b></span>
-    <div class="nav">
-      <ul>
-        <li><a href="index.html" class="active">Главная</a></li>
-        <li><a href="Albums.html">Альбомы</a></li>
-        <li><a href="Tracks.html">Маршруты</a></li>
-        <!--<li><a href="Chat.html">Чат</a></li>-->
-        <li><a href="Contacts.html">Контакты</a></li>
-        <!-- <li><i class="fas fa-search"></i></li> -->
-      </ul>
-    </div>
-  </header>
+  <script src="scripts\script.js" nameOfPage = "ПУТЕШЕВСТВУЙ"></script>
+  <?php
+    //$nameOfPage = 'Путешевствуй';
+    //include './includes/header.php';
+  ?>
 
   <div class="main">
     <h2>Недавно посещенные места.</h2>
@@ -49,7 +31,7 @@
         <p>Равным образом реализация намеченных плановых заданий позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач. Товарищи! рамки и место обучения кадров требуют определения и уточнения новых предложений. Таким образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации модели развития. Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет оценить значение форм развития.</p>
         <div class="bottom">
           <div><i class="fa fa-map-marker" aria-hidden="true"></i></i> from <b>Karelia</b></div>
-          <div><i class="far fa-clock"></i> 2 weeks ago </div>
+          <div><i class="far fa-clock"></i> 2 days ago </div>
         </div>
 
         <div class="img-holder big-size">
@@ -60,7 +42,7 @@
         <p>Равным образом реализация намеченных плановых заданий позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач. Товарищи! рамки и место обучения кадров требуют определения и уточнения новых предложений. Таким образом новая модель организационной деятельности влечет за собой процесс внедрения и модернизации модели развития. Разнообразный и богатый опыт постоянный количественный рост и сфера нашей активности требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий играет важную роль в формировании модели развития. Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет оценить значение форм развития.</p>
         <div class="bottom">
           <div><i class="fa fa-map-marker" aria-hidden="true"></i> from <b>Karelia</b></div>
-          <div><i class="far fa-clock"></i> 3 weeks ago </div>
+          <div><i class="far fa-clock"></i> 3 days ago </div>
         </div>
       </div>
 
@@ -78,7 +60,7 @@
            модернизации модели развития.</p>
         <div class="bottom">
           <div><i class="fa fa-map-marker" aria-hidden="true"></i> from <b>Karelia</b></div>
-          <div><i class="far fa-clock"></i> 6 weeks ago </div>
+          <div><i class="far fa-clock"></i> 6 days ago </div>
         </div>
 
         <div class="img-holder">
@@ -96,7 +78,7 @@
            уточнения позиций, занимаемых участниками в отношении поставленных задач.</p>
         <div class="bottom">
           <div><i class="fa fa-map-marker" aria-hidden="true"></i> from <b>Karelia</b></div>
-          <div><i class="far fa-clock"></i> 9 weeks ago </div>
+          <div><i class="far fa-clock"></i> 9 days ago </div>
         </div>
       </div>
 
@@ -117,7 +99,7 @@
              в отношении поставленных задач.</p>
         <div class="bottom">
           <div><i class="fa fa-map-marker" aria-hidden="true"></i> from <b>Karelia</b></div>
-          <div><i class="far fa-clock"></i> 13 weeks ago </div>
+          <div><i class="far fa-clock"></i> 13 days ago </div>
         </div>
 
         <div class="img-holder medium-size">
@@ -135,7 +117,7 @@
            уточнения позиций, занимаемых участниками в отношении поставленных задач.</p>
         <div class="bottom">
           <div><i class="fa fa-map-marker" aria-hidden="true"></i></i> from <b>Karelia</b></div>
-          <div><i class="far fa-clock"></i> 20 weeks ago </div>
+          <div><i class="far fa-clock"></i> 20 days ago </div>
         </div>
       </div>
     </div>

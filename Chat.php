@@ -6,40 +6,47 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Путешествуй.</title>
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" media="screen and (max-width: 426px)" href="css/425-Phone.css"/>
-  <link rel="stylesheet" media="screen and (min-width: 426px) and (max-width: 769px)" href="css/768-Tablet.css" />
-  <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1440px)" href="css/1024-Laptop.css" />
+  <link rel="stylesheet" media="screen and (max-width: 426px)" href="css/Phone.css"/>
+  <link rel="stylesheet" media="screen and (min-width: 426px) and (max-width: 769px)" href="css/Tablet.css" />
+  <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1440px)" href="css/Laptop.css" />
+  <link rel="stylesheet" media="screen and (min-width: 1440px)" href="css/other.css" />
 </head>
 <body>
   <header>
-    <span class="logo">АЛЬБОМЫ<b>.</b></span>
+    <span class="logo">ЧАТ<b>.</b></span>
     <div class="nav">
       <ul>
-        <li><a href="index.html" class="active">Главная</a></li>
-        <li><a href="Albums.html">Альбомы</a></li>
-        <li><a href="Tracks.html">Маршруты</a></li>
-        <li><a href="Chat.html">Чат</a></li>
-        <li><a href="Contacts.html">Контакты</a></li>
+        <li><a href="index.php" class="active">Главная</a></li>
+        <li><a href="Albums.php">Альбомы</a></li>
+        <li><a href="Tracks.php">Маршруты</a></li>
+        <!-- <li><a href="Chat.php">Чат</a></li> -->
+        <li><a href="Contacts.php">Кто мы</a></li>
         <!-- <li><i class="fas fa-search"></i></li> -->
       </ul>
     </div>
   </header>
-  <div class="albums-main">
-				<div class="album-preview">
-							<h4>Murmansk.</h4>
-							<img src="img/k5.jpg" alt="">		
-							<div class="album-navigation-bar">
-											<div class="tag"><i class="fa fa-hashtag" aria-hidden="true"></i>Travel</div>
-											<div>
-													<!-- photografer -->		
-											</div>
-											<div><i class="far fa-clock"></i> 2 weeks ago </div>
-								</div>
-						</div>		
-			</div>	
-			
-			
-							
+  <div class="chat-main">
+  				<div>
+  								<form name="test" method="post" action="#">
+  											<div class="chat-view">
+  															<div class="chat-view-msg">
+  																			<p>
+  																							Lorem ipsum dolor sit amet, 																								consectetur adipisicing elit.
+  																			</p>
+  															</div>
+  											</div>
+  											<div class="chat-bar">
+  															<div>
+  																			<textarea id="msg-input" name="comment" cols="40" rows="3"></textarea>
+  															</div>
+  															<div>
+  																			<input id="send-msg" type="submit" value="Send">
+  															</div>
+
+  											</div>
+
+  				</div>
+
   </div>
   <footer>
     <div class="flex-blocks">
