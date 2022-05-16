@@ -51,7 +51,7 @@ headerElement.appendChild(divElementNav);
 
 spanElement.setAttribute("class", "logo");
 headerElement.insertBefore(spanElement, divElementNav);
-spanElement.textContent = document.querySelector('script').getAttribute('nameOfPage');
+spanElement.textContent = document.querySelector('script').dataset.nameOfPage;
 
 redDotElement.textContent = ".";
 spanElement.appendChild(redDotElement);
