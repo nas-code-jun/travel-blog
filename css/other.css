@@ -90,7 +90,10 @@ header ul li .fa-search{
 
 header ul li .fa-search:hover{color:#ccc}
 
-.main{margin-top:50px}
+.main{
+	margin-top:50px;
+	di
+}
 
 .main h2{font-size:30px;
 	font-weight:400;
@@ -116,20 +119,22 @@ header ul li .fa-search:hover{color:#ccc}
   font-weight:300;
 }
 
-.main .articles > div{
-  width:32%;
+.main .articles {
+  width:98%;
   margin-top:30px;
   color:#333;
+	display: flex;
+	flex-direction: column;
 }
 
-.main .articles > div .img-holder{
-  width:100%;
-  height:300px;
+.main .articles .img-holder{
+  width: 100%;
+  height:400px;
   background:#f0f0f0;
 	overflow: hidden;
 }
 
-.main .articles > div .img-holder > img {
+.main .articles .img-holder > img {
 	display: block;
   width: 100%;
   height: 100%;
@@ -137,32 +142,32 @@ header ul li .fa-search:hover{color:#ccc}
 	transition: transform ease 600ms;
 }
 
-.main .articles > div .img-holder > img:hover {
+.main .articles .img-holder > img:hover {
 	transform: scale(1.03);
 
 }
 
-.main .articles>div .img-holder.big-size{height:500px}
+.main .articles .img-holder.big-size{height:500px}
 
-.main .articles>div .img-holder.medium-size{height:400px}
+.main .articles .img-holder.medium-size{height:400px}
 
-.main .articles>div .tag {
+.main .articles .tag {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 12px;
   margin-top: 42px;
 }
 
-.main .articles>div .tag i {
+.main .articles .tag i {
 	margin-right: 2px;
 }
 
-  .main .articles>div h3{
+  .main .articles h3{
 	font-size:24px;
 	margin-top:5px;
 }
 
-.main .articles > div p{margin-top:10px}
+.main .articles p{margin-top:10px}
 
 .main .articles .bottom {
   margin-bottom:40px;
