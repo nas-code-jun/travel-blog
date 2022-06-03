@@ -22,7 +22,7 @@ body {
 	/* font-family: 'Montserrat Alternates', sans-serif; */
 	font-family: 'Comfortaa', cursive;
   font-weight:400;
-  font-size:16px;
+  font-size: 16px;
   background-color:#fff;
 }
 
@@ -37,7 +37,7 @@ a:hover{color:#ccc}
 p{color:#999}
 
 i, b {
-		color: #c63e21;
+	color: #c63e21;
 }
 
 header, .main .articles,.main .articles .bottom {
@@ -59,6 +59,10 @@ header {
 		flex-direction: column;
 		align-items: center;
 	}
+	header .nav {
+	    width: 100%;
+	}
+	
 	header .nav ul {
 		display: flex;
 		flex-direction: column;
@@ -67,8 +71,15 @@ header {
 	}
 	header .nav ul li {
 		width: 100%;
+		text-align: center;
+		margin-bottom: 5px;
+		padding: 5px 0 5px 0;
+		font-size: 2em;
+		box-shadow: 0px 0px 8px -3px rgba(25, 25, 25, 0.90);
 	}
-
+    header .nav ul li a {
+        margin: 0 auto 10px auto;
+    }
 }
 
 header .logo{
@@ -124,12 +135,12 @@ header ul li a {
   color:#333;
 	display: flex;
 	flex-direction: column;
-	background-color: #ccc;
+	
 }
 
 @media (max-width: 426px) {
   .main .articles {
-		width: 95%;
+		width: 94%;
 	}
 }
 
@@ -169,7 +180,11 @@ header ul li a {
 	margin-top:5px;
 }
 
-.main .articles p{margin-top:10px}
+.main .articles p {
+    margin-top:10px;
+    font-size: 1.2em;
+    
+}
 
 .main .articles .bottom {
   margin-bottom:40px;
@@ -285,7 +300,7 @@ footer {
 	footer > div {
 		width: 80%;
 		margin-top: 20px;
-		background: #ccc;
+		
 	}
 }
 
