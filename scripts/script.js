@@ -55,3 +55,7 @@ spanElement.textContent = document.querySelector('script').dataset.nameOfPage;
 
 redDotElement.textContent = ".";
 spanElement.appendChild(redDotElement);
+
+//let templateHdr = document.querySelector("#hdr");
+//let clone = templateHdr.content.cloneNode(true);
+//templateHdr.parentNode.appendChild(clone);
