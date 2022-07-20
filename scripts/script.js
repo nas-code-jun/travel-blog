@@ -1,4 +1,11 @@
-let nameOfPage;
+/*var link = document.querySelector('link[rel=import]');
+var header = link.import.querySelector("#head");
+let nextElem = document.querySelector('article');
+document.body.insertBefore(header, nextElem);
+console.log(nextElem);*/
+
+
+/*let nameOfPage;
 let headerElement = document.createElement('header');
 let divElementNav = document.createElement('div');
 let spanElement = document.createElement("span");
@@ -54,7 +61,7 @@ headerElement.insertBefore(spanElement, divElementNav);
 spanElement.textContent = document.querySelector('script').dataset.nameOfPage;
 
 redDotElement.textContent = ".";
-spanElement.appendChild(redDotElement);
+spanElement.appendChild(redDotElement);*/
 
 //let templateHdr = document.querySelector("#hdr");
 //let clone = templateHdr.content.cloneNode(true);

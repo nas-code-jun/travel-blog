@@ -10,10 +10,12 @@
   <link rel="stylesheet" media="screen and (min-width: 426px) and (max-width: 769px)" href="css/1Tablet.css" />
   <link rel="stylesheet" media="screen and (min-width: 769px) and (max-width: 1440px)" href="css/1Laptop.css" />
   <link rel="stylesheet" media="screen and (min-width: 1440px)" href="css/main.css"/> -->
+  <link rel="import" href="/includes/includes.html">
   <link rel="stylesheet" href="css/main.css"/>
+  
 </head>
 <body>
-  <header>
+ <header id="head">
     <div class="auth-panel">
         <input  id="signin-btn" class="main-btn" type="button" value="Регистрация">
         <input id="login-btn" class="main-btn"type="button" value="Вход">
@@ -68,19 +70,20 @@
     </div>
     <button id="more-btn" class="main-btn">Load more</button>
 </div> -->
-  <footer>
-      <div>
+   <footer>
+      <hr>
         <h3>Кто мы<b>.</b></h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
           Ea, tempora.</p>
-        <div class="social">
+        <div class="social-links">
           <a href=""><i class="fab fa-facebook-f"></i></a>
-          <i class="fab fa-facebook-messenger"></i>
-          <i class="fab fa-twitter"></i>
-          <i class="fab fa-linkedin-in"></i>
-          <i class="fab fa-pinterest"></i>
+          <a><i class="fab fa-facebook-messenger"></i></a>
+          <a><i class="fab fa-twitter"></i></a>
+          <a><i class="fab fa-linkedin-in"></i></a>
+          <a><i class="fab fa-pinterest"></i></a>
         </div>
-      </div>
+        <p class="text-bottom">Copyright &copy;</p>
+      
       <!-- <div>
         <h3>Useful Links.</h3>
         <ul class="links">
@@ -96,7 +99,9 @@
         856-227-9838<br>(+1) 201-805-1903<br><br><a href="#" class="email-link">info@crunble.al</a></p>
       </div> -->
   </footer>
-  <p class="text-bottom">Copyright &copy;</p>
+ 
+
+  <script src='/scripts/script.js'></script>
   <script src="https://kit.fontawesome.com/99c7c397ee.js" crossorigin="anonymous"></script>
 </body>
 </html>
